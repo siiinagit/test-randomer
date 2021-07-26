@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="bodyId">
+
+    <button onclick="getRandomBroj()" id="generator">press me</button>
+    <span id="kod"></span>
+    <label for="input">upiši boju</label>
+    <input type="text"  name="input" id="input" value="#" maxlength="7" placeholder="unesi hex color code">
+    <input type="submit" value="submit" id="submiter" onclick="unesiKod()">
+
+    <div class="konvertor">
+        <label for="evri">insert in <span id="eText">Euro</span>:</label>
+        <input  type="number" value="" name="evri" id="evri">
+        <button id="convert">convert</button>
+        <button id="switch" >switch</button>
+        <label for="marke">result in <span id="kmText">KM</span>:</label>
+        <input type="number" name="marke" id="marke">
+    </div>
+
+    <div class="san">
+        <label for="tekst">unesi tekst</label>
+        <input type="text" name="tekst" id="tekst">
+        <button id="btnDdj">dodaj</button>
+        <button style="margin-top: 15px;" id="prikazi">prikazi listu</button>
+    </div>
+
+
+    <label for="trazi">trazi po duzini reci</label>
+    <input type="number" name="trazi" id="trazi">
+    <label for="sadrzaj">trazi po sadrzaju</label>
+    <input type="text" name="sadrzaj" id="sadrzaj">
+    <h1>KUCA ABECEDE</h1>
+    <p class="tekst">Hladno i vjetrovito, vidljivost smanjena.
+        U Engleskoj siječanj obično nije ovako oštar. Američki vojnici
+        već su dugo sjedili na pisti za slijetanje kad primijete da im se
+        približava neki stasiti Englez. Još se uvijek nije sasvim razbudio.
+        U stražnjim redovima prednje skupine jedna se silueta uspravi
+        na noge i mahne mu. Englez uzvrati pozdrav i glasno zijevne. Nakon
+        toliko noćnih napada bilo se teško ponovno naviknuti na uobičajeni
+        slijed dana i noći. Ovo će biti dug dan.
+        Nešto dalje, na južnom kraju piste, prvi su se zrakoplovi već
+        pripremali za polijetanje. Uskoro će nebo vrvjeti od aviona.
+        Ova predodžba u njemu je pobudila proturječne osjećaje.
+        Nalog za današnji zadatak pristigao je iz ureda general-pukovnika
+        Lewisa H. Breretona iz Sunning Hill Parka. Za britansku podršku
+        zamolio je vrhovnog zapovjednika britanskoga ratnog zrakoplovstva,
+        maršala Harrisa. Za vrijeme noćnih napada na Berlin britanski vojni
+        zrakoplovi Mosquito u studenom su otkrili veliku tajnu Nijemaca –
+        tvornice V-1 raketa u Zempinu – što je dodatno pobudilo zanimanje
+        Amerikanaca.</p>
+
+
+        <div class="prvi">
+            <p class="target">trazi me</p>
+        </div>
+
+        <div class="drugi">
+            <p>preskoci</p>
+            <p id="nezeljeni">preskoci me</p>
+            <p id="trazilica">trazilica</p>
+            <p id="ne">trazilica</p>
+            <p id="nene">trazilica</p>
+        </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

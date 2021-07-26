@@ -1,0 +1,46 @@
+.test{
+    background-color: #FA8072;
+}
+#kod{
+    font-size: 100px;
+    font-weight: bold;
+}
+.border{
+    background-color: white;
+    transition: all .5s ease-in;
+}
+.konvertor{
+    width: 800px;
+    height: 80px;
+    border: none solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 6px 9px 10px #575541;
+}
+.san{
+    margin-top: 20px;
+}
+#submiter{
+    background-color: rgb(231, 221, 221);
+    color: rgb(19, 18, 18);
+    border: none;
+    width: 50px;
+    height: 25px;
+    transition: .4s all ease;
+    border-radius: 3px;
+}
+#submiter:hover{
+    background-color: rgb(12, 1, 1);
+    color: rgb(247, 214, 214);
+    cursor: pointer;
+    transform: translate(10px)
+}
+.boje{
+    margin-top: 50px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
